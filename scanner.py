@@ -8,7 +8,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from tabulate import tabulate
 
 NVD_API_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0"
-NVD_API_KEY = "90198acc-b4a1-44ad-b704-082b61df598c"  # Your NVD API key
+NVD_API_KEY = "ENTER_KEY_HERE"  # Your NVD API key
 
 # Step 1: Get the IP address of the device
 def get_ip_address():
